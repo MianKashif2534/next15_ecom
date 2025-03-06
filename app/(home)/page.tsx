@@ -1,3 +1,5 @@
+import HomeCarousel from '@/components/shared/home/home-carousel'
+import { data } from '@/lib/data'
 export default async function page() {
-  return <div>page</div>
+  return <HomeCarousel items={data.carousals}></HomeCarousel>
 }
