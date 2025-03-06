@@ -520,6 +520,7 @@ export const products: IProductInput[] = [
 
 export const data: Data = {
   products,
+  reviews: [],
   headerMenus: [
     {
       name: 'Todays Deals',
